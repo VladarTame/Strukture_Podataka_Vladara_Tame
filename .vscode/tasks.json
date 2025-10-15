@@ -10,8 +10,7 @@
                 "/EHsc",
                 "/Fe:",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}",
-				"tstring.cpp"
+                "${file}"
             ],
             "problemMatcher": [
                 "$msCompile"
