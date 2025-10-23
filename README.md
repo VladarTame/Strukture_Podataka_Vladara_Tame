@@ -10,3 +10,10 @@ git pull 'repo'
 git remote add origin 'repo'  
 //git pull --rebase origin main  
 //git push origin main  
+
+/*
+na faks compjuterima sa VS2022
+call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\VsDevCmd.bat"
+echo Building...
+cl.exe %*
+*/
