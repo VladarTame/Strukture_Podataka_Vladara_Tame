@@ -2,8 +2,8 @@
 
 git config --global user.name  
 git config --global user.email  
-git init 'repo'  
-//git config --global --add safe.directory '*'  
+//git init 'repo'  
+git config --global --add safe.directory 'path on disc'  
 git fetch 'repo'  
 git pull 'repo'  
 //git reflog  
