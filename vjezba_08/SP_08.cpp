@@ -10,13 +10,13 @@ typedef struct tree
 	struct tree *right;
 } branch;
 
-branch *aNewHandTouchesTheBeacon(int);		 // stvara novi element i vraca adresu
-branch *newHand(branch *, int);	 // dodaje novi element u stablo
-branch *detectiveWork(branch *, int); // vraca adresu pronadenog elementa
-branch *disorderlyConduct(branch *);	 // disorderlyConduct ispis
-branch *iWouldLikeToPreorderThisOne(branch *);	 // iWouldLikeToPreorderThisOne ispis
-branch *postApocalypse(branch *); // postApocalypse ispis
-branch *soloLeveling(branch *); // soloLeveling ipis
+branch *aNewHandTouchesTheBeacon(int);
+branch *newHand(branch *, int);
+branch *detectiveWork(branch *, int);
+branch *disorderlyConduct(branch *);
+branch *iWouldLikeToPreorderThisOne(branch *);
+branch *postApocalypse(branch *);
+branch *soloLeveling(branch *);
 
 int main()
 {
@@ -49,12 +49,12 @@ int main()
 /*
 workent
 */
-	branch leaf = detectiveWork(root, 11);
-	printf("Trazi se 11 bcs why not: ");
-	if (leaf != NULL)
-		printf("Element %d has not touched the beacon.\n", leaf->n);
-	else
-		printf("Element has touched the beacon.\n");
+	// branch leaf = detectiveWork(root, 11);
+	// printf("Trazi se 11 bcs why not: ");
+	// if (leaf != NULL)
+	// 	printf("Element %d has not touched the beacon.\n", leaf->n);
+	// else
+	// 	printf("Element has touched the beacon.\n");
 
 	return 0;
 }
